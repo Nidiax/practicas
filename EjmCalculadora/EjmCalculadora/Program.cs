@@ -1,17 +1,17 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Calculadora");
 
-int valor1;
-int valor2;
-int suma;
-int resta;
-int multiplacacion;
-int division;
+double valor1;
+double valor2;
+double suma;
+double resta;
+double multiplacacion;
+double division;
 
 Console.WriteLine("Ingrese un número");
-valor1 = Convert.ToInt32(Console.ReadLine());
+valor1 = Convert.ToDouble(Console.ReadLine());
 Console.WriteLine("Ingrese un número");
-valor2 = Convert.ToInt32(Console.ReadLine());
+valor2 = Convert.ToDouble(Console.ReadLine());
 
 suma = valor1 + valor2;
 resta = valor1 - valor2;
